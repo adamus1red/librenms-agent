@@ -77,7 +77,7 @@ import sys
 
 ### Option defaults
 
-method = ""  # must be one of methods array
+method = "hpasmcli"  # must be one of methods array
 verbose = False
 warnings = False
 librenms = True  # Return results in a JSON format suitable for Librenms
@@ -98,7 +98,7 @@ usage = (
     + " [-v|--verbose] [-w|--warnings] | -l|--list-methods | -h|--help"
 )
 methods = ["sensors", "hpasmcli"]
-# costPerkWh = 0.15  # <<<< CHANGE
+costPerkWh = 17.6  # <<<< CHANGE
 
 ### General functions
 
