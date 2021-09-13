@@ -63,7 +63,7 @@
 # 20210205 - v1.3 - added cents per kWh
 # 20210205 - v1.4 - improvement to UI
 
-version = 1.4.1
+version = 1.4
 
 ### Libraries
 
