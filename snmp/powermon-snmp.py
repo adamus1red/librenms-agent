@@ -63,7 +63,7 @@
 # 20210205 - v1.3 - added cents per kWh
 # 20210205 - v1.4 - improvement to UI
 
-version = 1.4
+version = 1.4.1
 
 ### Libraries
 
@@ -98,7 +98,7 @@ usage = (
     + " [-v|--verbose] [-w|--warnings] | -l|--list-methods | -h|--help"
 )
 methods = ["sensors", "hpasmcli"]
-costPerkWh = 17.6  # <<<< CHANGE
+costPerkWh = 0.176  # <<<< CHANGE
 
 ### General functions
 
